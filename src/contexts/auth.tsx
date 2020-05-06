@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import accounts from "../../storage/account.json";
 
 interface AuthAPI {
-  [index: string]: any;
   user?: {
     name: string;
     favouriteFruit: string;
