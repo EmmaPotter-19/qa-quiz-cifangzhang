@@ -25,9 +25,6 @@ const AuthProvider: React.FC = ({ children }) => {
 
   const login = (username: string, password: string) => {
     console.warn({ username, password });
-    // if (accounts[username].password === password) {
-    //   setUser(accounts[username]);
-    //   return Promise.resolve(accounts[username]);
     if (accounts[username].password === password) {
       setUser(accounts[username]);
       return Promise.resolve(accounts[username]);
